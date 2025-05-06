@@ -15,4 +15,4 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-client.run('COLE AQUI O ID')
+client.run('sua anta')
